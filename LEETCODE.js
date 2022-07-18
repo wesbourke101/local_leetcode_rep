@@ -56,8 +56,8 @@ function chunkedFunction(chunkArr, size) {
 let answer = chunkedFunction(chunkArr, size);
 console.log(answer)
 
-const chunkArr1 = [1,2,3,4,5,6]
-const size1 = 2
+// const chunkArr1 = [1,2,3,4,5,6]
+// const size1 = 2
 
 function chunkedMedium(chunkArr1, size1) {
     let chunked = [];
@@ -68,5 +68,6 @@ function chunkedMedium(chunkArr1, size1) {
     }
     return chunked
 }
-let otherAnswer = chunkedMedium(chunkArr1, size1);
-console.log(otherAnswer)
+// let otherAnswer = chunkedMedium(chunkArr1, size1);
+// console.log(otherAnswer)
+
