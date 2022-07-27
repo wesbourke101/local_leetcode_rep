@@ -54,7 +54,7 @@ function chunkedFunction(chunkArr, size) {
   return chunked;
 }
 let answer = chunkedFunction(chunkArr, size);
-console.log(answer)
+// console.log(answer)
 
 // const chunkArr1 = [1,2,3,4,5,6]
 // const size1 = 2
@@ -71,3 +71,25 @@ function chunkedMedium(chunkArr1, size1) {
 // let otherAnswer = chunkedMedium(chunkArr1, size1);
 // console.log(otherAnswer)
 
+
+let S = '.>.....';
+//    '.>.<.><...'
+//     '>>>>>>.<<<<<<<'
+function solution(S) {
+    let max = 0;
+    for (let i = 0; i < S.length - 1; i++) {
+        let tempSlice = '';
+        let newNew = ''
+        if (S[i] === '>') {
+            tempSlice = S.slice(i)
+            console.log(tempSlice)
+            newNew = tempSlice.replace(/>/g, '')
+            max = max + newNew
+            console.log(newNew)
+        } else if(S[i] === "<") {
+            console.log('wes')
+        }
+    }
+}
+let newReturn = solution(S)
+// console.log(newReturn)
