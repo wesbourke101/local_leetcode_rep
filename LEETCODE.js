@@ -170,15 +170,19 @@
 //     console.log(map)
 // }
 // kindle(s)
-let str = 'aaaaasdfastasfad'
-function letsGOO(str) {
-    let map = {}
-    for(let char of str) {
-        if(!map[char]) map[char] = 1
-        else if(map[char]) map[char] += 1
-    }
-    console.log(Object.keys(map))
-    return Object.keys(map).find(key => map[key] === 1)
-}
-console.log(letsGOO(str))
+// let str = 'aaaaasdfastasfad'
+// function letsGOO(str) {
+//     let map = {}
+//     for(let char of str) {
+//         if(!map[char]) map[char] = 1
+//         else if(map[char]) map[char] += 1
+//     }
+//     console.log(Object.keys(map))
+//     return Object.keys(map).find(key => map[key] === 1)
+// }
+// console.log(letsGOO(str))
 
+function WesTest() {
+    console.log('told you so')
+}
+WesTest()
